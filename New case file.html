@@ -63,22 +63,17 @@
         </form>
       </div>
     </nav>
-  </header> 
-  <!-- SEARCH BAR -->
-  <div class="searchbar mb-4">
-    <input class="searchbox" type="search" name="search" id="search" placeholder="Search...">
-    <i class="fas fa-search"></i>
-  </div>
+  </header>
 
-  <section class="main body mb-5">
+  <section class="main body mt-5 mb-5">
 
     <section class="left side">
 
-      <div class="sidemenu mb-5">
+      <div class="sidemenu mb-5 ">
         <div class="block block1"><a href="./doctormap.html"><i class="fas fa-stethoscope"></i></a></div>
         <div class="block"><a href="./hospitalmap.html"><i class="fas fa-hospital"></i></a></div>
         <div class="block"><a href="./pharmacymap.html"><i class="fas fa-capsules"></i></a></div>
-        <div class="block selected"><a href="./create case.html"><i class="fas fa-notes-medical"></i></a>AI search</div>
+        <div class="block"><a href="./create case.html"><i class="fas fa-notes-medical"></i></a>AI search</div>
         <div class="block block2"><a href="./patient landing page.html"><i class="fas fa-history"></i></a></div>
       </div>
 
@@ -155,22 +150,42 @@
     </section>
 
     <section class="Right side">
-      <!-- Info Box -->
-      <!-- Diseases Box -->
-      <div class="card mb-5" style="height: 75vh;">
-        <div class="card-body" style="height: 75vh; position: relative;">
-          <h5 class="card-title">AI Disease finder</h5>
-          <div class="card-body-main scrollbar-container" style="height: calc(75vh - 40px);">
-            <!-- Adjusted height to accommodate input -->
+      <div class="card mb-5">
+        <div class="card-body">
+          <h5 class="card-title">DRUG FINDER</h5>
+          <div class="card-body-main scrollbar-container" style="max-height:75vh; overflow-y: auto;">
             <div class="table-responsive">
-              <input type="text" name="chatbox" id="chatbox"
-                style="position: absolute; bottom: 0; left: 0; width: 100%;border-radius: 15px;border: 2px solid#238878;color: #78b1a8;background-color: #d9d9d9;font-family:'oswald',sans-serif; padding-left: 15px;height: 5vh;">
+              <form style="text-align: center;font-size: 20px;">
+                <div class="form-group mt-3 mb-4">
+                  <label for="input1" style="display: inline-block; width: 200px; font-family: 'Madimi One', sans-serif;">Patient Name:</label>
+                  <input type="text" name="input1" id="input1" style="border-radius: 15px; border: 2px solid #238878; color: #78b1a8; width: 40vh; background-color: #d9d9d9; font-family: 'Oswald', sans-serif; padding-left: 15px;">
+                </div>
+                <div class="form-group mb-4">
+                  <label for="input2" style="display: inline-block; width: 200px; font-family: 'Madimi One', sans-serif;">Patient Age & Sex:</label>
+                  <input type="text" name="input2" id="input2" style="border-radius: 15px; border: 2px solid #238878; color: #78b1a8; width: 40vh; background-color: #d9d9d9; font-family: 'Oswald', sans-serif; padding-left: 15px;">
+                </div>
+                <div class="form-group mb-4">
+                  <label for="input3" style="display: inline-block; width: 200px; font-family: 'Madimi One', sans-serif;">Patient Address:</label>
+                  <input type="text" name="input3" id="input3" style="border-radius: 15px; border: 2px solid #238878; color: #78b1a8; width: 40vh; background-color: #d9d9d9; font-family: 'Oswald', sans-serif; padding-left: 15px;">
+                </div>
+                <div class="form-group mb-4">
+                  <label for="input4" style="display: inline-block; width: 200px; font-family: 'Madimi One', sans-serif;">Symptoms:</label>
+                  <input type="text" name="input4" id="input4" style="border-radius: 15px; border: 2px solid #238878; color: #78b1a8; width: 40vh; background-color: #d9d9d9; font-family: 'Oswald', sans-serif; padding-left: 15px;">
+                </div>
+                <div class="form-group mb-4">
+                  <label for="input5" style="display: inline-block; width: 200px; font-family: 'Madimi One', sans-serif;">Test Reports</label>
+                  <input type="file" name="input5" id="input5" style="border-radius: 15px; border: 2px solid #238878; color: #78b1a8; width: 40vh; background-color: #d9d9d9; font-family: 'Oswald', sans-serif; padding-left: 15px;">
+                  
+                </div>
+                <!-- Add more rows as needed -->
+                <button type="submit" class="case-btn btn-primary">Submit</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
-
-
+    </section>
+    
     </section>
     <!-- Calender -->
 

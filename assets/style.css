@@ -402,6 +402,7 @@ h3 a:hover {
     text-align: center;
     color: #d9d9d9;
 }
+
 .mainsignin {
     display: flex;
     padding: 20px;
@@ -445,13 +446,13 @@ h3 a:hover {
     text-align: end;
 }
 
-.createacc a{
+.createacc a {
     text-decoration: none;
     color: #238878;
 }
 
-.createacc a:hover{
-    text-decoration:underline;
+.createacc a:hover {
+    text-decoration: underline;
     color: #238878;
 }
 
@@ -461,45 +462,46 @@ h3 a:hover {
     background-color: #d9d9d9;
     border-radius: 20px;
     text-align: center;
-    color: #238878 ;
+    color: #238878;
     padding-top: 10vh;
 }
 
-.signinright h1{
+.signinright h1 {
     color: #238878;
 }
 
-.signinright h5{
+.signinright h5 {
     color: #238878;
     font-weight: 200;
 }
 
-.signinright input{
+.signinright input {
     border-radius: 15px;
     border: 2px solid#238878;
     color: #78b1a8;
     width: 40vh;
     background-color: #d9d9d9;
-    font-family: "Oswald",sans-serif;
+    font-family: "Oswald", sans-serif;
     padding-left: 15px;
 }
 
-.signinright input::placeholder{
+.signinright input::placeholder {
     color: #78b1a8;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.signinright hr{
+.signinright hr {
     color: #238878;
     height: .5vh !important;
 }
 
-.signinright p,u{
+.signinright p,
+u {
     color: #238878;
     text-align: center;
 }
 
-.signinbtn{
+.signinbtn {
     width: 40vh;
     border: 3px solid #238878;
     border-radius: 15px;
@@ -508,13 +510,13 @@ h3 a:hover {
     transition: all .1s ease-in .2s;
 }
 
-.signinbtn:hover{
+.signinbtn:hover {
     box-shadow: 0px 0px 10px #78b1a8;
     transition: all .1s ease-in .2s;
 
 }
 
-.othbtn{
+.othbtn {
     border: 2px solid #b5b5b5;
     background-color: #d9d9d9;
     color: #78b1a8;
@@ -524,7 +526,7 @@ h3 a:hover {
 
 }
 
-.othbtn:hover{
+.othbtn:hover {
     border: 2px solid #b5b5b5;
     background-color: #d9d9d9;
     color: #78b1a8;
@@ -535,17 +537,24 @@ h3 a:hover {
 
 }
 
-.sigicon{
+.sigicon {
     width: 20px;
     align-items: center;
     margin-bottom: 3px;
     justify-content: center;
 }
 
-.sup{
+.sup {
     width: 50px;
 }
 
 .block2 {
     border-radius: 0px 0px 15px 0px;
-  }
+}
+
+.case-btn{
+    background-color: #238878 !important;
+    border: none;
+    padding: 7px 20px;
+    border-radius: 20px;
+}
